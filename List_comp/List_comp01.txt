@@ -1,0 +1,30 @@
+FROM python: 3.9-slim
+
+WOKDIR	/app
+
+COPY requirements.txt
+
+COPY ./app
+
+Python 
+
+RUN PIP install -upgrade
+RUN PIP install -no-cache-dir-requirements.txt
+
+CMD ['python', app.py] 
+
+docker ps
+
+docker -t container_name
+
+num = [2,4,5,6, 8]
+x = [(num * 2) for i in num ]
+print(x)
+
+name = ['apple', 'orange', 'bannana']
+y = [ for n in name: name.upper()
+print(y)
+
+
+
+
