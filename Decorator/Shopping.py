@@ -9,6 +9,8 @@ def my_shopping(func):
 
 @my_shopping
 def my_shopping_bill(price, discount):
-    return price * (discount/100)
-print(my_shopping(599, 8))
+    return price + price * (discount/100)
+
+total_bill = my_shopping_bill(599, 8)
+print(f"Total bill is : {total_bill}")
 

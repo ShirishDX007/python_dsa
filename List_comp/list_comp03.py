@@ -15,4 +15,5 @@ matrix = [
     [9,10,11,12],
 ]
 x = [[row[i] for row in matrix] for i in range(4)]
+print("Transpose of 2D matrix..")
 print(x)

@@ -1,4 +1,4 @@
-x = [35, 20, 15, 99, 45, 10, 50, 75]
+x = [35, 20, 15, 9, 45, 10, 50, 75]
 
 #Initialize the smallest number from list as first element
 smallest = x[0]
