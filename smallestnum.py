@@ -10,14 +10,18 @@ for num in x[1:]:
         smallest = num
 
 print(f"Smallest number from list is", smallest)
+print("_" * 100)
 
 print("smallest number using min method..")
 
 smallest_num = min(x)
 print(smallest_num)
 
-print("--***--smallest number using sorted method--***--")
+print("-" * 100)
+
+print("smallest number using sorted method..")
 
 sorted_num = sorted(x)
 smallest = sorted_num[0]
 print(smallest)
+print("-" * 100)
