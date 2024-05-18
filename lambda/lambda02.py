@@ -1,4 +1,4 @@
-#lambda parameters: expression
+#[lambda parameters: expression]
 #lambda take one or more arguments but only on expression
 
 def get_full_name(first_name, last_name, formatter):
