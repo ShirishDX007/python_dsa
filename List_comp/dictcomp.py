@@ -9,4 +9,4 @@ stocks = {
 
 stock_price = {symbol: price * 1.02 for (symbol, price) in stocks.items()}
 
-print(stock_price)
+print(list(stock_price.items()))
