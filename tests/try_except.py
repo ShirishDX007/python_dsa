@@ -8,6 +8,7 @@ except:
     print('cannot compute average -make',
           'sure you enter numbers integers')
 finally:
+    print("Avg of sum is computed.")
     
           
         
