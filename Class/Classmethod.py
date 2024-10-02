@@ -1,7 +1,7 @@
 class BodyInfo:
     Gym_name = "BodyZone"
    
-    def __init__(self,weight, height):
+    def __init__(self,name, weight, height):
         self.weight = weight
         self.height = height
 
