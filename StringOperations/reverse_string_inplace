@@ -1,0 +1,13 @@
+def reverse_string_inplace(s):
+    i = 0
+    j = len(s) - 1
+    while i < j:
+        s[i], s[j] = s[j], s[i]
+        i += 1
+        j -= 1
+    return s
+
+# Test the function
+s = ["h", "e", "l", "l", "o"]
+#s = "hellowow" #TypeError: 'str' object does not support item assignment
+print(reverse_string_inplace(s))  

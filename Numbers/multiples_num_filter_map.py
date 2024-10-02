@@ -1,7 +1,9 @@
 #find odd numbers from number 4 to 25
+#map(function, iterable)
 nums = list(range(4,26))
 mapped_nums = list(map(lambda n: n,nums))
 print(mapped_nums)
+#filter(function,iterable)
 odd_numbers= list(filter(lambda x: x % 2, mapped_nums))
 print("Odd numbers are: ", odd_numbers)
 
