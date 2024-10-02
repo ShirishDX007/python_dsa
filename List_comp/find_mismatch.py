@@ -24,6 +24,15 @@ if __name__ == '__main__':
     print("_"*100)
 
 #alternate solution for above problem
+#write pseudocode for following function
+#1.define find repeat missing function with numbers as an argument
+#2.intialize repeat and missing variables with set to zero
+#3.write a for loop to iterate through numbers with i
+#4.if numbers of count(i) is equal to 2
+#5.then set repeat equal to i
+#6.create another loop of elif number count of i is equal to zero
+#7.then set missing equal to i
+#8.return repeat and missing
 
 def find_repeat_missing(numbers):
     repeat = 0
