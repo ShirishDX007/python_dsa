@@ -1,3 +1,11 @@
+#Add pseudocode for the below program
+#define a function to add a number between string with one parameter
+#create an empty list of result
+#create an empty string for current substring
+#Iterate through the string for each char
+#Inside the for loop check if char is not '/'
+#add char to current string
+#append the currentstring plus len of current string to the result
 def find_numbers(st):
     result = []
     current_substring = ""
