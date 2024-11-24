@@ -8,6 +8,8 @@
 #7. return num multiply by factorial of num -1
 
 def factorial(num):
+    """ 'A Recursive function calls itself until it solves the problem.
+        Recursive function has two cases Base case and recursive case.' """
     call_stack=[]
     if num == 1:
         print('base value reached. Num is 1.')
@@ -18,6 +20,7 @@ def factorial(num):
         return num * factorial(num -1)
 
 print(f"factorial : ",factorial(5))
+help(factorial)
 
     
           
