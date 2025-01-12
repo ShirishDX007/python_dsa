@@ -7,7 +7,7 @@
 #6. print the call stack
 #7. return num multiply by factorial of num -1
 
-def factorial(num):
+def factorial(num)-> int:
     """ 'A Recursive function calls itself until it solves the problem.
         Recursive function has two cases Base case and recursive case.' """
     call_stack=[]
