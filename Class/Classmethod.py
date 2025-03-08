@@ -15,8 +15,8 @@ class BodyInfo:
         return cls.Gym_name
 
 weight = 60
-height = 1.5
-print(BodyInfo.bmi_calculator(weight, height))
+height = 1.75
+print("Your bmi is : ",round(BodyInfo.bmi_calculator(weight, height),2))
 print(BodyInfo.bmi())
 
       

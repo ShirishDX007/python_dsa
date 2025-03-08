@@ -1,4 +1,15 @@
-def factorial(num):
+#pseudocode for recursive function
+#1. define factorial function with num as an argument
+#2. create a call stack list
+#3. check if num is equal to 1
+#4. if num is equal to 1 then print base value reached and return 1
+#5. else append the input value to call stack list
+#6. print the call stack
+#7. return num multiply by factorial of num -1
+
+def factorial(num)-> int:
+    """ 'A Recursive function calls itself until it solves the problem.
+        Recursive function has two cases Base case and recursive case.' """
     call_stack=[]
     if num == 1:
         print('base value reached. Num is 1.')
@@ -8,7 +19,8 @@ def factorial(num):
         print('call stack: ', call_stack)
         return num * factorial(num -1)
 
-factorial(5)
+print(f"factorial : ",factorial(5))
+help(factorial)
 
     
           
