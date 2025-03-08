@@ -6,3 +6,5 @@ else:
 
 num_list = [x for x in num_list if not num_list.count(x) > 1]
 print(num_list)
+
+
